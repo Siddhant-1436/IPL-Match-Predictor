@@ -335,8 +335,3 @@ The Elo rating difference between teams consistently ranks as the top feature in
 
 The regression model achieves MAE ~20 runs with R2 near zero using pre-match aggregate features. Cricket run margins depend on in-match factors (weather, pitch conditions, individual player form) that richer data sources could capture. The near-zero R2 with current features is consistent with published sports prediction literature.
 
----
-
-**Author:** [Rajesh Srivastava](https://github.com/genieincodebottle)
-
-**Part of:** [AI/ML Companion](https://github.com/genieincodebottle/aiml-companion) - A hands-on learning platform for ML, Deep Learning, LLMs, and AI Engineering.
