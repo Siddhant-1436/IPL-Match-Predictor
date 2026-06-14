@@ -1,0 +1,34 @@
+# Data files (download from Kaggle or auto-loaded from GitHub)
+*.zip
+data/raw/*.csv
+!data/raw/matches.csv
+!data/raw/matches_2026.csv
+
+# Artifacts (generated outputs)
+artifacts/results/ipl-dataset-analysis-executed.ipynb
+artifacts/results/ipl-dataset-analysis.html
+artifacts/figures/*.png
+artifacts/figures/*.svg
+artifacts/figures/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
